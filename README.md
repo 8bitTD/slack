@@ -4,7 +4,9 @@ Works in windows10 environment
 
 ## Cargo.toml
 [dependencies]
+
 slack = { git = "https://github.com/8bitTD/slack" }
+
 
 ## main.rs
 use slack;
