@@ -17,3 +17,4 @@ fn main() {
     slack::send_slack(tkn, cnl, usr, msg).unwrap();
 }
 ```
+![image](https://user-images.githubusercontent.com/19583059/114428831-a60c8d80-9bf7-11eb-957d-b1ce169465ca.png)
