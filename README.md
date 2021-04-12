@@ -1,13 +1,13 @@
 # slack
 Send a message to slack
 Works in windows10 environment
+## Cargo.toml
 ```
-//Cargo.toml
 [dependencies]
 slack = { git = "https://github.com/8bitTD/slack" }
 ```
+## main.rs
 ```
-//main.rs
 use slack;
 fn main() {
     let tkn: &str = "xxxx-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
@@ -17,3 +17,4 @@ fn main() {
     slack::send_slack(tkn, cnl, usr, msg).unwrap();
 }
 ```
+![image](https://user-images.githubusercontent.com/19583059/114428831-a60c8d80-9bf7-11eb-957d-b1ce169465ca.png)
