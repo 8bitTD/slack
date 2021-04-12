@@ -1,13 +1,13 @@
 # slack
 Send a message to slack
 Works in windows10 environment
+## Cargo.toml
 ```
-//Cargo.toml
 [dependencies]
 slack = { git = "https://github.com/8bitTD/slack" }
 ```
+## main.rs
 ```
-//main.rs
 use slack;
 fn main() {
     let tkn: &str = "xxxx-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
