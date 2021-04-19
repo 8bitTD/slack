@@ -4,7 +4,7 @@ Works in windows10 environment
 ## Cargo.toml
 ```
 [dependencies]
-slack = { git = "https://github.com/8bitTD/slack" }
+slack = { git = "https://github.com/8bitTD/slack", branch = "main" }
 ```
 ## main.rs
 ```
